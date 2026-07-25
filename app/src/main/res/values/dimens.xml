@@ -1,39 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!--
-        My device: Xiaomi Mi A1
-        My android version: 9
+  <!-- 
+      Настройки для Xiaomi 14 (Разрешение: 2670 x 1200)
+      Если сетка будет немного не совпадать, вы можете вручную менять эти значения ниже.
+  -->
 
-        Use the Landscape mode
-        In Landscape mode, the values X and Y are inverted
-
-        Portrait:
-        Device Width: X => 1080
-        Device Height: Y => 1920
-
-        Landscape:
-        Device Width: X => 1920
-        Device Height: Y => 1080
-
-        Find the dimensions of your device in MainActivity ( DEBUG )
-
-        Add the android:background="@color/colorAlphaWhite" in layout ( RelativeLayout ) to help the adjusts
-    -->
-
-    <!-- Board -->
-    <dimen name="boardWidth" tools:ignore="PxUsage">1620px</dimen>
-    <dimen name="boardHeight" tools:ignore="PxUsage">897px</dimen>
-    <dimen name="boardMarginBottom" tools:ignore="PxUsage">0.0099px</dimen>
-
-    <!-- Canvas -->
-    <dimen name="canvasWidth" tools:ignore="PxUsage">1458px</dimen>
-    <dimen name="canvasHeight" tools:ignore="PxUsage">731px</dimen>
-    <dimen name="canvasMarginTop" tools:ignore="PxUsage">82px</dimen>
-
-    <!-- Buttons -->
-    <dimen name="buttonWidth" tools:ignore="PxUsage">280px</dimen>
-    <dimen name="buttonHeight" tools:ignore="PxUsage">75px</dimen>
-    <dimen name="buttonNormalMarginStart" tools:ignore="PxUsage">175px</dimen>
-    <dimen name="buttonCloseMarginEnd" tools:ignore="PxUsage">170px</dimen>
-    <dimen name="buttonTrickshotSecondLineMarginEnd" tools:ignore="PxUsage">170px</dimen>
+  <!-- Board (Внешние границы стола) -->
+  <dimen name="boardWidth" tools:ignore="PxUsage">1800px</dimen>
+  <dimen name="boardHeight" tools:ignore="PxUsage">997px</dimen>
+  <dimen name="boardMarginBottom" tools:ignore="PxUsage">0px</dimen>
+  
+  <!-- Canvas (Игровое поле внутри бортов стола) -->
+  <dimen name="canvasWidth" tools:ignore="PxUsage">1620px</dimen>
+  <dimen name="canvasHeight" tools:ignore="PxUsage">812px</dimen>
+  <dimen name="canvasMarginTop" tools:ignore="PxUsage">91px</dimen>
+  
+  <!-- Buttons (Кнопки управления внизу) -->
+  <dimen name="buttonWidth" tools:ignore="PxUsage">311px</dimen>
+  <dimen name="buttonHeight" tools:ignore="PxUsage">83px</dimen>
+  <dimen name="buttonNormalMarginStart" tools:ignore="PxUsage">194px</dimen>
+  <dimen name="buttonCloseMarginEnd" tools:ignore="PxUsage">189px</dimen>
+  <dimen name="buttonTrickshotSecondLineMarginEnd" tools:ignore="PxUsage">189px</dimen>
 </resources>
