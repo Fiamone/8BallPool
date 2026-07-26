@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- Пиксельно-точная настройка под стол Xiaomi 14 (Попытка №4) -->
+  <!-- Точная настройка под стол Xiaomi 14 (Попытка №6) -->
 
   <!-- Board (Внешние границы стола) -->
-  <dimen name="boardWidth" tools:ignore="PxUsage">1910px</dimen>
-  <dimen name="boardHeight" tools:ignore="PxUsage">932px</dimen>
+  <dimen name="boardWidth" tools:ignore="PxUsage">2040px</dimen>
+  <dimen name="boardHeight" tools:ignore="PxUsage">940px</dimen>
   <dimen name="boardMarginBottom" tools:ignore="PxUsage">0px</dimen>
   
   <!-- Canvas (Игровое поле внутри бортов стола) -->
-  <dimen name="canvasWidth" tools:ignore="PxUsage">1710px</dimen>
-  <dimen name="canvasHeight" tools:ignore="PxUsage">732px</dimen>
+  <dimen name="canvasWidth" tools:ignore="PxUsage">1840px</dimen>
+  <dimen name="canvasHeight" tools:ignore="PxUsage">740px</dimen>
   <dimen name="canvasMarginTop" tools:ignore="PxUsage">100px</dimen>
   
   <!-- Buttons (Кнопки управления внизу) -->
