@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- Идеальные настройки сетки под экран Xiaomi 14 (2670 x 1200) -->
+  <!-- Золотая середина для Xiaomi 14 (Попытка №2) -->
 
   <!-- Board (Внешние границы стола) -->
-  <dimen name="boardWidth" tools:ignore="PxUsage">1800px</dimen>
-  <dimen name="boardHeight" tools:ignore="PxUsage">997px</dimen>
+  <dimen name="boardWidth" tools:ignore="PxUsage">2100px</dimen>
+  <dimen name="boardHeight" tools:ignore="PxUsage">1100px</dimen>
   <dimen name="boardMarginBottom" tools:ignore="PxUsage">0px</dimen>
   
   <!-- Canvas (Игровое поле внутри бортов стола) -->
-  <dimen name="canvasWidth" tools:ignore="PxUsage">1620px</dimen>
-  <dimen name="canvasHeight" tools:ignore="PxUsage">812px</dimen>
-  <dimen name="canvasMarginTop" tools:ignore="PxUsage">91px</dimen>
+  <dimen name="canvasWidth" tools:ignore="PxUsage">1900px</dimen>
+  <dimen name="canvasHeight" tools:ignore="PxUsage">950px</dimen>
+  <dimen name="canvasMarginTop" tools:ignore="PxUsage">75px</dimen>
   
   <!-- Buttons (Кнопки управления внизу) -->
   <dimen name="buttonWidth" tools:ignore="PxUsage">311px</dimen>
